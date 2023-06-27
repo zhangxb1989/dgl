@@ -75,7 +75,8 @@ In the paper, we have two experiment settings: Clustering with Seen Test Data Di
 For Clustering with Seen Test Data Distribution, one can run
 
 ```bash
-bash scripts/test_deepglint_imbd_sampled_as_deepglint.sh
+scripts/test_deepglint_imdb_sampled_as_deepglint.sh
+##bash scripts/test_deepglint_imbd_sampled_as_deepglint.sh
 
 bash scripts/test_inat.sh
 ```
