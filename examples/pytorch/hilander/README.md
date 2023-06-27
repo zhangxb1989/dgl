@@ -75,7 +75,7 @@ In the paper, we have two experiment settings: Clustering with Seen Test Data Di
 For Clustering with Seen Test Data Distribution, one can run
 
 ```bash
-scripts/test_deepglint_imdb_sampled_as_deepglint.sh
+bash scripts/test_deepglint_imdb_sampled_as_deepglint.sh
 ##bash scripts/test_deepglint_imbd_sampled_as_deepglint.sh
 
 bash scripts/test_inat.sh
@@ -88,8 +88,12 @@ bash scripts/test_inat.sh
 |                 Fb |                           0.819 |                           0.350 |
 |                NMI |                           0.949 |                           0.774 |
 * The results might fluctuate a little due to the randomness introduced by gpu knn building using faiss-gpu.
+
+IMDB:
 ![image](https://github.com/zhangxb1989/dgl/assets/3263233/ff0f26fc-118a-4ef4-93b2-333a17dbcca0)
 
+iNat2018：
+![image](https://github.com/zhangxb1989/dgl/assets/3263233/9a985fbe-8f8f-494c-b1d9-99c3b294d165)
 
 
 For Clustering with Unseen Test Data Distribution, one can run
