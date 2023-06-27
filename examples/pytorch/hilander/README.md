@@ -88,6 +88,8 @@ bash scripts/test_inat.sh
 |                 Fb |                           0.819 |                           0.350 |
 |                NMI |                           0.949 |                           0.774 |
 * The results might fluctuate a little due to the randomness introduced by gpu knn building using faiss-gpu.
+![image](https://github.com/zhangxb1989/dgl/assets/3263233/ff0f26fc-118a-4ef4-93b2-333a17dbcca0)
+
 
 
 For Clustering with Unseen Test Data Distribution, one can run
