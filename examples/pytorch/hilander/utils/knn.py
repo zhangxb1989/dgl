@@ -10,7 +10,8 @@ import os
 
 import numpy as np
 from tqdm import tqdm
-from utils import Timer
+#from utils import Timer
+from .misc import Timer
 
 from .faiss_search import faiss_search_knn
 
