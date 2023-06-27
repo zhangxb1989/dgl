@@ -6,7 +6,9 @@ import inspect
 
 import numpy as np
 from clustering_benchmark import ClusteringBenchmark
-from utils import metrics, TextColors, Timer
+#from utils import metrics, TextColors, Timer
+from utils import metrics
+from .misc import TextColors, Timer
 
 
 def _read_meta(fn):
